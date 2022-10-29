@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  width:100%;
+  min-height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #511f50;
+  font-family: 'League Spartan', sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20% 7%;
+  row-gap: 30px;
+}
+.upper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  text-align: center;
+}
+.blabla {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.rates {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 15px;
+}
+.rate {
+  background-color: #f7f2f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:15px 0;
+  row-gap: 10px;
+  width: 100%;
+  border-radius: 7px;
+}
+.card {
+  background-color: #511f50;
+  padding: 20px;
+  border-radius: 7px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.card .imgWcon img {
+  border-radius: 50%;
+  width: 50px;
+}
+.imgWcon {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 5px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 100%;
+  color: white;
+}
+p {
+  font-weight: 800;
+  line-height: 1.25;
+}
+.blabla p {
+  font-weight: lighter;
+}
+span {
+  color: #c06ca2;
+}
+@media only screen and (min-width:651px) {
+  main {
+    margin: 0 7%;
+  }
+  .upper {
+    flex-direction: row;
+    column-gap: 30px;
+    text-align: left;
+  }
+  .upper h1 {
+    font-size: 50px;
+    width: 70%;
+    font-weight: 1000;
+  }
+  .upper .blabla p {
+    width: 70%;
+  }
+  .cards {
+    flex-direction: row;
+    column-gap: 30px;
+  }
+  .rates {
+    width: 50%;
+    align-items: flex-start;
+  }
+  .rate {
+    width: 80%;
+    flex-direction: row;
+    column-gap: 20px;
+  }
+  .blabla {
+    width: 50%;
+  }
+
+  .card {
+
+  }
+  #r2 {
+    margin-left: 10%;
+  }
+  #r3 {
+    margin-left: 20%;
+  }
+  #c2 {
+    margin-top: 40px;;
+  }
+  #c3 {
+    margin-top: 80px;;
+  }
+
+}
